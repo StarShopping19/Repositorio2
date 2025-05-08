@@ -13,9 +13,7 @@ while total_venta <= 1200:
         sabor1 = input("Seleccione un sabor para la primera bola (fresa,maracuyá,lúcuma): ").lower()
         sabor2 = input("Seleccione un sabor para la segunda bola (fresa,maracuyá,lúcuma): ").lower()
         total_venta += 11
-        if sabor1 == "lúcuma":
-            total_venta += 1
-        if sabor2 == "lúcuma":
+        if sabor1 or sabor2 == "lúcuma":
             total_venta += 1
 
     else:
