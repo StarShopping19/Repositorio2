@@ -1,2 +1,2 @@
 # Repositorio2
-clase 8 de mayo 
+# Mensaje escrito en la nube (remoto) es decir desde cuenta de GitHub
